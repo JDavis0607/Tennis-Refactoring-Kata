@@ -1,3 +1,5 @@
+using gv = Tennis.GlobalVariables;
+
 namespace Tennis
 {
     class TennisGame : ITennisGame
