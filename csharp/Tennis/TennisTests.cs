@@ -60,7 +60,7 @@ namespace Tennis
 			var game = new TennisGame("player1", "player2");
 
 			string[] points = { "player1", "player1", "player2", "player2", "player1", "player1" };
-			string[] expectedScores = { gv.score[5], gv.score[7], gv.score[13], gv.score[2], gv.score[14], gv.score[17] };
+			string[] expectedScores = { gv.score[4], gv.score[6], gv.score[10], gv.score[2], gv.score[14], gv.score[16] };
 
 			for (var i = 0; i < 6; i++)
 			{
